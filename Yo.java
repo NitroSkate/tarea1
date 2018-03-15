@@ -15,6 +15,8 @@ public class Yo {
     String apellido;
     int edad;
     String profesion;
+    String fechanac;
+    String carnet;
     
     public static void main(String[] args) {
         
@@ -24,13 +26,15 @@ public class Yo {
         yo.apellido = "Sharp";
         yo.edad = 20;
         yo.profesion = "Estudiante";
+        yo.fechanac = "5 de Noviembre de 1997";
+        yo.carnet = "00159817";
         
         System.out.println("Mi nombre es: "+yo.nombre);
         System.out.println("Mi apellido es: "+yo.apellido);
         System.out.println("Mi edad es: "+yo.edad);
         System.out.println("Mi profesion es: "+yo.profesion);
-        
-        
+        System.out.println("Mi fecha de nacimiento es: "+yo.fechanac);
+        System.out.println("Mi carnet es: "+yo.carnet);
     }
     
 }
